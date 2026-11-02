@@ -48,4 +48,4 @@ Each league is a seperate HTTP request, and most of the time is spent waiting on
 Functional Programming:
 By itself, functional programming doesnt make the scraper any faster; map and filter are about the same as a regular loop. The benefit is that each step is its own pure function with no shared states. This makes concurrency easy: no thread is ever touching anything that another thread is also touching. Since map and filter are iterators this is lazy, so nothing is copied into the lists until the very end. 
 
-(screenshot.png)
+![Scraper](screenshot.png)
